@@ -2,12 +2,12 @@
 
 ## Overview
 
-This repository demonstrates the utilization of the InfluxDB Python client to interact with InfluxDB, a powerful time-series database. The project includes the native installation of InfluxDB, Python application development for simulating weather data, and visualization of the data in the InfluxDB Data Explorer.
+This repository demonstrates the utilization of the InfluxDB Python client to interact with InfluxDB, a powerful time-series database. The project includes the native installation of InfluxDB, Python application development for simulating human heart rate, and visualization of the data in the InfluxDB Data Explorer.
 
 ## Installation and Setup
 
 1. **Install InfluxDB:**
-   - Follow the native installation process for InfluxDB on your operating system. Ensure that the organization, user, and bucket are named as Fachhochschule Kiel, Muzammil, and Big_Data_Tech, respectively.
+   - Follow the native installation process for InfluxDB on your operating system. Ensure that the organization, user, and bucket are named as Fachhochschule Kiel, Muzammil, and Health, respectively.
 
 2. **Run InfluxDB:**
    - Navigate to the folder where InfluxDB is installed and run the command `influxd.exe` in your command terminal.
@@ -16,7 +16,7 @@ This repository demonstrates the utilization of the InfluxDB Python client to in
    - Open a web browser and go to the link "http://localhost:8086/orgs/9a9591bb6a51fbc5/data-explorer?fluxScriptEditor" to access the InfluxDB Data Explorer. Here, you can visualize real-time weather data.
 
 4. **Python Application:**
-   - Develop a Python application that generates random weather data for Heidelberg. This application interacts with InfluxDB to store the simulated data.
+   - Develop a Python application that generates target heart rate data for human being. This application interacts with InfluxDB to store the simulated data.
 
 5. **Visualization in Python:**
    - Extract and display the filtered dataset in Python using the InfluxDB Python client.
